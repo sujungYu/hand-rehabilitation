@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:weightSum="8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/도"
+                android:background="@android:drawable/editbox_background_normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/레"
+                android:background="@android:drawable/editbox_background_normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/미"
+                android:background="@android:drawable/editbox_background_normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/파"
+                android:background="@android:drawable/editbox_background_normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/솔"
+                android:background="@android:drawable/editbox_background_normal" />
+
+
+            <Button
+                android:id="@+id/pbtnConnect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/newbutton"
+                android:fontFamily="@font/pt1"
+                android:text="연결"
+                android:textSize="36sp"
+                android:translationY="200dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:background="@android:drawable/screen_background_dark" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/screen_background_dark" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="80dp"
+                android:background="@android:drawable/screen_background_dark" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pt1"
+                android:text="손가락을 사용하여"
+                android:textSize="36sp"
+                android:translationX="80dp"
+                android:translationY="100dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pt1"
+                android:text="피아노를 연주하세요!"
+                android:textSize="36sp"
+                android:translationX="70dp"
+                android:translationY="100dp" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

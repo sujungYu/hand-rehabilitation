@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/muscle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/newbutton"
+        android:fontFamily="@font/pt1"
+        android:text="근육재활"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:translationY="175dp" />
+
+    <Button
+        android:id="@+id/grip_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muscle_btn"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/newbutton"
+        android:fontFamily="@font/pt1"
+        android:text="악력재활"
+        android:textSize="36sp"
+        android:translationY="155dp" />
+
+    <Button
+        android:id="@+id/musclegrip_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/muscle_btn"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/newbutton"
+        android:fontFamily="@font/pt1"
+        android:text="근육 및 악력 재활"
+        android:textSize="36sp"
+        android:translationY="190dp" />
+
+    <Button
+        android:id="@+id/st_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grip_btn"
+        android:layout_marginTop="226dp"
+        android:background="@drawable/newbutton"
+        android:fontFamily="@font/pt1"
+        android:text="알람"
+        android:textSize="36sp"
+        android:translationY="30dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pt1"
+        android:text="Smart Rehabilitaion Gloves"
+        android:textColor="@color/teal_700"
+        android:textSize="36sp"
+        android:translationX="15dp"
+        android:translationY="30dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="259dp"
+        app:srcCompat="@drawable/back" />
+
+
+</RelativeLayout>
